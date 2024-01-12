@@ -21,6 +21,7 @@ img.logo{
 }
 .navbar{
   background-color: var(--brand-color)!important;
+  
 }
 .btn-primary-dark{
   border-radius: 50px;
@@ -331,4 +332,24 @@ background: var(--2, #6E81A0);
   }
   
 
+}
+@media (max-width: 767px) {
+  .navbar {
+    height: 100px; /* Adjust the height as needed */
+  }
+
+  .navbar-brand {
+    height: 100px; /* Adjust the height as needed */
+  }
+
+  .navbar-toggler {
+    /* You may want to adjust the height and width of the toggler icon */
+    height: 100px;
+    width: 100px;
+  }
+
+  .navbar-nav .nav-link {
+    padding-top: 10px; /* Adjust the padding as needed */
+    padding-bottom: 10px; /* Adjust the padding as needed */
+  }
 }
