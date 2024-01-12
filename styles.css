@@ -28,8 +28,8 @@ img.logo{
   color: var(--brand-color)!important;
 }
 .btn-primary-blue{
-  border-radius: 50px;
-  background: var(--2, linear-gradient(180deg, #109FCF 0%, #0074A4 100%));
+  border-radius: 50px!important;
+  background: var(--2, linear-gradient(180deg, #109FCF 0%, #0074A4 100%))!important;
   color: var(--brand-color)!important;
 }
 .navbar-toggler{
@@ -48,7 +48,7 @@ img.logo{
   stroke: var(--3, #FFF);
 }
 .intro-row{
-  padding: 5em 0 5em 0;
+  padding: 10em 0 5em 0;
 }
 .intro-r-cover img{
   width: 100%;
@@ -118,7 +118,7 @@ img.logo{
   line-height: 100%; /* 50px */
 }
 .frame-2{
-  padding: 5em 0 0 0 ;
+  padding: 5em 0 5em 0 ;
 }
 .header-text{
   color: var(--2, var(--1, --nav-link-color));

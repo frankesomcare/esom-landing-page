@@ -16,7 +16,7 @@
   <title>EsomCare</title>
 </head>
 <body>
- <nav class="navbar  navbar-expand-lg ">
+ <nav class="navbar fixed-top  navbar-expand-lg ">
   <div class="container-fluid">
     <img class="navbar-brand img-fluid logo" src="image/logo-esome.png" />
     <img class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" src="image/ico.png"/>
@@ -476,7 +476,7 @@
               <textarea class="form-control" placeholder="Write Message" id="floatingTextarea"></textarea>
               <label for="floatingTextarea">Write Message</label>
             </div>
-            <button class="btn btn-primary">Send Message</button>
+            <button class="btn btn-primary-blue">Send Message</button>
 
           </form>
 
@@ -542,11 +542,18 @@
   <!-- <hr/> -->
   <h6 class="text-center">Copyright @ ESOM Care <span id="year"></span>. All Rights Reserved.</h6>
 </div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
+  // Close the navbar when a link is clicked
   document.getElementById("year").innerHTML = new Date().getFullYear();
+  $('.navbar-nav a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+  });
 </script>
-
-
   
 </body>
 </html>
